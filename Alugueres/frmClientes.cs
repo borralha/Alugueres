@@ -10,17 +10,11 @@ using System.Windows.Forms;
 
 namespace Alugueres
 {
-    public partial class frmMenu : Form
+    public partial class frmClientes : Form
     {
-        public frmMenu()
+        public frmClientes()
         {
             InitializeComponent();
-        }
-
-        private void brnClientes_Click(object sender, EventArgs e)
-        {
-            frmClientes frm =new frmClientes ();
-            frm.ShowDialog();
         }
     }
 }

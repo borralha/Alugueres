@@ -53,6 +53,7 @@
             this.brnClientes.TabIndex = 1;
             this.brnClientes.Text = "Gerir Clientes";
             this.brnClientes.UseVisualStyleBackColor = true;
+            this.brnClientes.Click += new System.EventHandler(this.brnClientes_Click);
             // 
             // btnAlugueres
             // 
